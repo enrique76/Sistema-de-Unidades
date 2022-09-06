@@ -1,12 +1,11 @@
 #include<iostream>
 #include<stdlib.h>
 #include<vector>
-//#include"magnitudes.h"
 
 using namespace std;
 
 const string MF[7] = {"Longitud","Masa","Tiempo","Temperatura","Cantidad de Sustancia","Intensidad Luminosa","Corriente Electrica"};
-//const string MD[] = {};
+
 int total = 6;
 
 class SI {
@@ -55,7 +54,7 @@ SI *mol = new SI("mol","mol",4);
 SI *candel = new SI("cd","candel",5);
 SI *ampere = new SI("A","ampere",6);
 
-// Sistema internacional Unidades Derivadas   
+// Funciones    
 
 string getNombre(int i){
     if(i == 0){
